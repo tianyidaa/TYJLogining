@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'TYJLogining_Example' do
   pod 'TYJLogining', :path => '../'
+  pod 'TYJNetworking', :path => '../../TYJNetworking'
 
   target 'TYJLogining_Tests' do
     inherit! :search_paths

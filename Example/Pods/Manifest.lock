@@ -1,0 +1,48 @@
+PODS:
+  - Expecta (1.0.6)
+  - "Expecta+Snapshots (3.1.1)":
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Specta (1.0.7)
+  - TYJLogining (0.1.0):
+    - TYJNetworking
+  - TYJNetworking (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - "Expecta+Snapshots"
+  - FBSnapshotTestCase
+  - Specta
+  - TYJLogining (from `../`)
+  - TYJNetworking (from `../../TYJNetworking`)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - "Expecta+Snapshots"
+    - FBSnapshotTestCase
+    - Specta
+
+EXTERNAL SOURCES:
+  TYJLogining:
+    :path: "../"
+  TYJNetworking:
+    :path: "../../TYJNetworking"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  TYJLogining: 36a5a7f6abe088264ddab3e3116fbebe38aef0d8
+  TYJNetworking: 346b04c19a523d0b6ba742c8c20a25daf3551bc2
+
+PODFILE CHECKSUM: e0df42b0f0e33ce444a5ca6caafed342520b3589
+
+COCOAPODS: 1.9.3

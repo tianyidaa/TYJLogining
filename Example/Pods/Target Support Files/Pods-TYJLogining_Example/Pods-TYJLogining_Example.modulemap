@@ -1,0 +1,6 @@
+framework module Pods_TYJLogining_Example {
+  umbrella header "Pods-TYJLogining_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

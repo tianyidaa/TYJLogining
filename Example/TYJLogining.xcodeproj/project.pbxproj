@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2EEB42EBDD3715293D9330F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2EEB42EBDD3715293D9330F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		54185C3F65077D425198F5D6 /* Pods_TYJLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYJLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB0D26946A1CE56BA2FBD77 /* Pods-TYJLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYJLogining_Example.release.xcconfig"; path = "Target Support Files/Pods-TYJLogining_Example/Pods-TYJLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TYJLogining_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYJLogining_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B36D328878C7290B51E1F8F /* Pods-TYJLogining_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYJLogining_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYJLogining_Tests/Pods-TYJLogining_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA8279EA6E70D72F7B9E79F /* Pods_TYJLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYJLogining_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D893B6F3266ADF41109D9519 /* TYJLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYJLogining.podspec; path = ../TYJLogining.podspec; sourceTree = "<group>"; };
-		DD6DC3874F78B04CB2042D23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D893B6F3266ADF41109D9519 /* TYJLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYJLogining.podspec; path = ../TYJLogining.podspec; sourceTree = "<group>"; };
+		DD6DC3874F78B04CB2042D23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				9B36D328878C7290B51E1F8F /* Pods-TYJLogining_Tests.debug.xcconfig */,
 				6BA338C305117D605DF25499 /* Pods-TYJLogining_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,10 +348,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TYJLogining_Example/Pods-TYJLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TYJLogining/TYJLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/TYJNetworking/TYJNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYJLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TYJNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
